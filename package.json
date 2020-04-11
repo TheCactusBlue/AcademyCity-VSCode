@@ -2,7 +2,7 @@
     "name": "academy-city-theme",
     "displayName": "Academy City",
     "description": "A neat dark theme.",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "publisher": "CactusBlue",
     "engines": {
         "vscode": "^1.0.0"
@@ -10,6 +10,7 @@
     "categories": [
         "Themes"
     ],
+    "repository": "https://github.com/ace-language/AcademyCity-VSCode",
     "contributes": {
         "themes": [
             {

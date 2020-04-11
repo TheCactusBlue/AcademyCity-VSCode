@@ -30,6 +30,7 @@
       "scope": [
         "keyword",
         "storage.modifier",
+        "storage.type",
         "support.type.primitive",
         "punctuation.accessor",
         "punctuation.separator"
@@ -63,7 +64,7 @@
       "name": "Class, Support",
       "scope": [
         "entity.name.type",
-        "storage.type",
+        "storage.type.cs",
         "support.type",
         "support.class",
         "support.type.sys-types"
@@ -73,7 +74,7 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded,",
       "scope": [
         "constant.numeric",
         "constant.language",
@@ -94,6 +95,44 @@
       ],
       "settings": {
         "foreground": "#8a75e6"
+      }
+    },
+    {
+      "name": "Heading",
+      "scope": [
+        "markup.heading"
+      ],
+      "settings": {
+        "foreground": "#7599e6"
+      }
+    },
+    {
+      "name": "List",
+      "scope": [
+        "punctuation.definition.list"
+      ],
+      "settings": {
+        "foreground": "#8a75e6"
+      }
+    },
+    {
+      "name": "Bold",
+      "scope": [
+        "markup.bold"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#f0b82b"
+      }
+    },
+    {
+      "name": "Italic",
+      "scope": [
+        "markup.italic"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#5ebae6"
       }
     }
   ]

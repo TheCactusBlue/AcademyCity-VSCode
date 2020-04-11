@@ -2,7 +2,7 @@
     "name": "academy-city-theme",
     "displayName": "Academy City",
     "description": "A neat dark theme.",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "publisher": "CactusBlue",
     "engines": {
         "vscode": "^1.0.0"

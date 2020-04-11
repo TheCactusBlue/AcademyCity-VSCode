@@ -1,0 +1,100 @@
+{
+  "name": "Academy City",
+  "type": "dark",
+  "colors": {
+    "sideBar.background": "#262433",
+    "statusBar.background": "#262433",
+    "editorGroupHeader.tabsBackground": "#262433",
+    "activityBar.background": "#2a2838",
+    "editor.background": "#2a2838",
+    "editorHoverWidget.background": "#2a2838",
+    "editor.foreground": "#eeffff",
+    "editorLineNumber.foreground": "#eeffff44",
+    "activityBarBadge.background": "#5ebae6",
+    "tab.inactiveBackground": "#262433",
+    "sideBarTitle.foreground": "#bbbbbb"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#eeffff88"
+      }
+    },
+    {
+      "name": "Keyword & Storage",
+      "scope": [
+        "keyword",
+        "storage.modifier",
+        "support.type.primitive",
+        "punctuation.accessor",
+        "punctuation.separator"
+      ],
+      "settings": {
+        "foreground": "#7599e6"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "variable.function",
+        "support.function",
+        "keyword.other.special-method"
+      ],
+      "settings": {
+        "foreground": "#5ebae6"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#1fdbac"
+      }
+    },
+    {
+      "name": "Class, Support",
+      "scope": [
+        "entity.name.type",
+        "storage.type",
+        "support.type",
+        "support.class",
+        "support.type.sys-types"
+      ],
+      "settings": {
+        "foreground": "#f0b82b"
+      }
+    },
+    {
+      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "keyword.other.unit",
+        "entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#e02d60"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": [
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#8a75e6"
+      }
+    }
+  ]
+}

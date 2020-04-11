@@ -1,0 +1,30 @@
+{
+    "name": "academy-city-theme",
+    "displayName": "Academy City",
+    "description": "A neat dark theme.",
+    "version": "0.0.9",
+    "publisher": "CactusBlue",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Academy City",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Academy City-color-theme.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "@types/node": "^13.9.0",
+        "ts-node": "^8.6.2",
+        "typescript": "^3.8.3"
+    },
+    "scripts": {
+        "gen": "ts-node src/generate"
+    }
+}

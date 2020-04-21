@@ -3,16 +3,42 @@
   "type": "dark",
   "colors": {
     "sideBar.background": "#262433",
-    "statusBar.background": "#262433",
-    "editorGroupHeader.tabsBackground": "#262433",
+    "statusBar.background": "#201D2B",
+    "editorGroupHeader.tabsBackground": "#201D2B",
+    "editorPane.background": "#1D1A27",
+    "editorWidget.border": "#363450",
+    "focusBorder": "#363450",
+    "sideBar.border": "#363450",
     "activityBar.background": "#2a2838",
+    "activityBar.activeBackground": "#363450",
+    "activityBar.activeBorder": "#5ebae6",
+    "button.background": "#5ebae6",
+    "button.foreground": "#212121",
+    "list.hoverBackground": "#363450",
+    "list.focusBackground": "#363450",
+    "list.activeSelectionBackground": "#363450",
+    "list.inactiveSelectionBackground": "#2b2a35",
     "editor.background": "#2a2838",
     "editorHoverWidget.background": "#2a2838",
+    "editorSuggestWidget.background": "#1D1A27",
     "editor.foreground": "#eeffff",
     "editorLineNumber.foreground": "#eeffff44",
-    "activityBarBadge.background": "#5ebae6",
+    "editor.lineHighlightBorder": "#363450",
+    "editorGutter.addedBackground": "#1fdbacde",
+    "editorGutter.modifiedBackground": "#5ebae6de",
+    "editorCutter.deletedBackground": "#e02d60de",
+    "quickInput.background": "#201D2B",
+    "input.background": "#1D1A27",
+    "input.border": "#5ebae6",
+    "dropdown.background": "#1D1A27",
     "tab.inactiveBackground": "#262433",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "tab.activeBorder": "#5ebae6",
+    "tab.hoverBackground": "#363450",
+    "notifications.background": "#201D2B",
+    "activityBarBadge.background": "#5ebae6",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "panel.background": "#201D2B",
+    "terminal.background": "#1D1A27"
   },
   "tokenColors": [
     {
@@ -36,7 +62,8 @@
         "punctuation.separator"
       ],
       "settings": {
-        "foreground": "#7599e6"
+        "foreground": "#7599e6",
+        "fontStyle": "bold"
       }
     },
     {
@@ -45,7 +72,8 @@
         "entity.name.function",
         "variable.function",
         "support.function",
-        "keyword.other.special-method"
+        "keyword.other.special-method",
+        "entity.name.section.python.renpy.label"
       ],
       "settings": {
         "foreground": "#5ebae6"
@@ -58,6 +86,13 @@
       ],
       "settings": {
         "foreground": "#1fdbac"
+      }
+    },
+    {
+      "name": "Strings (Ren'Py)",
+      "scope": "string.quoted.double.single-line.python.renpy",
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
@@ -86,6 +121,15 @@
       ],
       "settings": {
         "foreground": "#e02d60"
+      }
+    },
+    {
+      "name": "Placeholders",
+      "scope": [
+        "constant.other.placeholder.tags"
+      ],
+      "settings": {
+        "foreground": "#eeffff"
       }
     },
     {

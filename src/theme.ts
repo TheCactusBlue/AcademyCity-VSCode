@@ -1,6 +1,10 @@
 const palette = {
 	background: '#2a2838',
 	background2: '#262433',
+	background3: '#363450',
+	background4: '#2b2a35',
+	background5: '#201D2B',
+	background6: '#1D1A27',
 	foreground: '#eeffff',
 	comments: '#eeffff88',
 
@@ -17,20 +21,54 @@ export const theme = {
 	type: "dark",
 	colors: {
 		"sideBar.background": palette.background2,
-		'statusBar.background': palette.background2,
-		'editorGroupHeader.tabsBackground': palette.background2,
+		'statusBar.background': palette.background5,
+		'editorGroupHeader.tabsBackground': palette.background5,
+		"editorPane.background": palette.background6,
+		"editorWidget.border": palette.background3,
+		"focusBorder": palette.background3,
+		"sideBar.border": palette.background3,
 
 		"activityBar.background": palette.background,
+		"activityBar.activeBackground": palette.background3,
+		"activityBar.activeBorder": palette.functions,
+
+		"button.background": palette.functions,
+		"button.foreground": "#212121",
+
+		"list.hoverBackground": palette.background3,
+		"list.focusBackground": palette.background3,
+		"list.activeSelectionBackground": palette.background3,
+		"list.inactiveSelectionBackground": palette.background4,
 
 		"editor.background": palette.background,
 		'editorHoverWidget.background': palette.background,
+		"editorSuggestWidget.background": palette.background6,
 
 		"editor.foreground": palette.foreground,
 		"editorLineNumber.foreground": '#eeffff44',
+		"editor.lineHighlightBorder": palette.background3,
+
+		"editorGutter.addedBackground": palette.strings + "de",
+		"editorGutter.modifiedBackground": palette.functions + "de",
+		"editorCutter.deletedBackground": palette.literals + "de",
+
+		"quickInput.background": palette.background5,
+
+		"input.background": palette.background6,
+		"input.border": palette.functions,
+
+		"dropdown.background": palette.background6,
+
+		'tab.inactiveBackground': palette.background2,
+		'tab.activeBorder': palette.functions,
+		'tab.hoverBackground': palette.background3,
+
+		"notifications.background": palette.background5,
 
 		"activityBarBadge.background": palette.functions,
-		'tab.inactiveBackground': palette.background2,
 		"sideBarTitle.foreground": "#bbbbbb",
+		"panel.background": palette.background5,
+		"terminal.background": palette.background6
 	},
 	tokenColors: [
 		{
@@ -54,7 +92,8 @@ export const theme = {
 				"punctuation.separator",
 			],
 			settings: {
-				foreground: palette.keywords
+				foreground: palette.keywords,
+				fontStyle: "bold"
 			}
 		},
 		{
@@ -64,6 +103,7 @@ export const theme = {
 				'variable.function',
 				'support.function',
 				'keyword.other.special-method',
+				"entity.name.section.python.renpy.label"
 			],
 			settings: {
 				foreground: palette.functions
@@ -76,6 +116,13 @@ export const theme = {
 			],
 			settings: {
 				foreground: palette.strings
+			}
+		},
+		{
+			name: "Strings (Ren'Py)",
+			scope: "string.quoted.double.single-line.python.renpy",
+			settings: {
+				fontStyle: "italic"
 			}
 		},
 		{
@@ -104,6 +151,15 @@ export const theme = {
 			],
 			settings: {
 				"foreground": palette.literals
+			}
+		},
+		{
+			name: "Placeholders",
+			scope: [
+				"constant.other.placeholder.tags"
+			],
+			settings: {
+				"foreground": palette.foreground
 			}
 		},
 		{

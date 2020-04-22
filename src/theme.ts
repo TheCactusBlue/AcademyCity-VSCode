@@ -5,6 +5,7 @@ const palette = {
 	background4: '#2b2a35',
 	background5: '#201D2B',
 	background6: '#1D1A27',
+	
 	foreground: '#eeffff',
 	comments: '#eeffff88',
 
@@ -29,7 +30,7 @@ export const theme = {
 		"sideBar.border": palette.background3,
 
 		"activityBar.background": palette.background,
-		"activityBar.activeBackground": palette.background3,
+		"activityBar.activeBackground": palette.background2,
 		"activityBar.activeBorder": palette.functions,
 
 		"button.background": palette.functions,
@@ -42,11 +43,10 @@ export const theme = {
 
 		"editor.background": palette.background,
 		'editorHoverWidget.background': palette.background,
-		"editorSuggestWidget.background": palette.background6,
+		"editorSuggestWidget.background": palette.background2,
 
 		"editor.foreground": palette.foreground,
 		"editorLineNumber.foreground": '#eeffff44',
-		"editor.lineHighlightBorder": palette.background3,
 
 		"editorGutter.addedBackground": palette.strings + "de",
 		"editorGutter.modifiedBackground": palette.functions + "de",
@@ -54,8 +54,7 @@ export const theme = {
 
 		"quickInput.background": palette.background5,
 
-		"input.background": palette.background6,
-		"input.border": palette.functions,
+		"input.background": palette.background5,
 
 		"dropdown.background": palette.background6,
 
@@ -64,11 +63,28 @@ export const theme = {
 		'tab.hoverBackground': palette.background3,
 
 		"notifications.background": palette.background5,
+		"notifications.hoverBackground": palette.background5,
 
 		"activityBarBadge.background": palette.functions,
 		"sideBarTitle.foreground": "#bbbbbb",
-		"panel.background": palette.background5,
-		"terminal.background": palette.background6
+		"panel.background": palette.background,
+		"terminal.background": palette.background,
+
+		'terminal.ansiBlack': palette.background2,
+		'terminal.ansiBlue': palette.keywords,
+		'terminal.ansiCyan': palette.functions,
+		'terminal.ansiGreen': palette.strings,
+		'terminal.ansiMagenta': palette.operators,
+		'terminal.ansiRed': palette.literals,
+		'terminal.ansiYellow': palette.types,
+
+		'terminal.ansiBrightBlack': palette.background2,
+		'terminal.ansiBrightBlue': palette.keywords,
+		'terminal.ansiBrightCyan': palette.functions,
+		'terminal.ansiBrightGreen': palette.strings,
+		'terminal.ansiBrightMagenta': palette.operators,
+		'terminal.ansiBrightRed': palette.literals,
+		'terminal.ansiBrightYellow': palette.types,
 	},
 	tokenColors: [
 		{
@@ -93,7 +109,6 @@ export const theme = {
 			],
 			settings: {
 				foreground: palette.keywords,
-				fontStyle: "bold"
 			}
 		},
 		{
@@ -160,6 +175,16 @@ export const theme = {
 			],
 			settings: {
 				"foreground": palette.foreground
+			}
+		},
+		{
+			name: "JSX attributes",
+			scope: [
+				"entity.other.attribute-name"
+			],
+			settings: {
+				foreground: palette.functions,
+				fontStyle: 'italic'
 			}
 		},
 		{

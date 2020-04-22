@@ -10,7 +10,7 @@
     "focusBorder": "#363450",
     "sideBar.border": "#363450",
     "activityBar.background": "#2a2838",
-    "activityBar.activeBackground": "#363450",
+    "activityBar.activeBackground": "#262433",
     "activityBar.activeBorder": "#5ebae6",
     "button.background": "#5ebae6",
     "button.foreground": "#212121",
@@ -20,25 +20,38 @@
     "list.inactiveSelectionBackground": "#2b2a35",
     "editor.background": "#2a2838",
     "editorHoverWidget.background": "#2a2838",
-    "editorSuggestWidget.background": "#1D1A27",
+    "editorSuggestWidget.background": "#262433",
     "editor.foreground": "#eeffff",
     "editorLineNumber.foreground": "#eeffff44",
-    "editor.lineHighlightBorder": "#363450",
     "editorGutter.addedBackground": "#1fdbacde",
     "editorGutter.modifiedBackground": "#5ebae6de",
     "editorCutter.deletedBackground": "#e02d60de",
     "quickInput.background": "#201D2B",
-    "input.background": "#1D1A27",
-    "input.border": "#5ebae6",
+    "input.background": "#201D2B",
     "dropdown.background": "#1D1A27",
     "tab.inactiveBackground": "#262433",
     "tab.activeBorder": "#5ebae6",
     "tab.hoverBackground": "#363450",
     "notifications.background": "#201D2B",
+    "notifications.hoverBackground": "#201D2B",
     "activityBarBadge.background": "#5ebae6",
     "sideBarTitle.foreground": "#bbbbbb",
-    "panel.background": "#201D2B",
-    "terminal.background": "#1D1A27"
+    "panel.background": "#2a2838",
+    "terminal.background": "#2a2838",
+    "terminal.ansiBlack": "#262433",
+    "terminal.ansiBlue": "#7599e6",
+    "terminal.ansiCyan": "#5ebae6",
+    "terminal.ansiGreen": "#1fdbac",
+    "terminal.ansiMagenta": "#8a75e6",
+    "terminal.ansiRed": "#e02d60",
+    "terminal.ansiYellow": "#f0b82b",
+    "terminal.ansiBrightBlack": "#262433",
+    "terminal.ansiBrightBlue": "#7599e6",
+    "terminal.ansiBrightCyan": "#5ebae6",
+    "terminal.ansiBrightGreen": "#1fdbac",
+    "terminal.ansiBrightMagenta": "#8a75e6",
+    "terminal.ansiBrightRed": "#e02d60",
+    "terminal.ansiBrightYellow": "#f0b82b"
   },
   "tokenColors": [
     {
@@ -62,8 +75,7 @@
         "punctuation.separator"
       ],
       "settings": {
-        "foreground": "#7599e6",
-        "fontStyle": "bold"
+        "foreground": "#7599e6"
       }
     },
     {
@@ -130,6 +142,16 @@
       ],
       "settings": {
         "foreground": "#eeffff"
+      }
+    },
+    {
+      "name": "JSX attributes",
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#5ebae6",
+        "fontStyle": "italic"
       }
     },
     {

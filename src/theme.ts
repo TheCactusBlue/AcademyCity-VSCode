@@ -21,6 +21,7 @@ export const theme = {
 	name: "Academy City",
 	type: "dark",
 	colors: {
+		'titleBar.activeBackground': palette.background,
 		"sideBar.background": palette.background2,
 		'statusBar.background': palette.background5,
 		'editorGroupHeader.tabsBackground': palette.background5,
@@ -78,7 +79,7 @@ export const theme = {
 		'terminal.ansiRed': palette.literals,
 		'terminal.ansiYellow': palette.types,
 
-		'terminal.ansiBrightBlack': palette.background2,
+		'terminal.ansiBrightBlack': palette.comments,
 		'terminal.ansiBrightBlue': palette.keywords,
 		'terminal.ansiBrightCyan': palette.functions,
 		'terminal.ansiBrightGreen': palette.strings,

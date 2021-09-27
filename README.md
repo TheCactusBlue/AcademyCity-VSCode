@@ -16,7 +16,7 @@ Academy City Theme
   </a>
 </p>
 
-A dark theme designed for CactusBlue's personal rice, and in future, to power the documentation site for Ace Language.
+A dark theme designed for CactusBlue's personal rice, and in future, to power the documentation site for the Railgun language.
 
 The name of the theme is in reference to the Academy City from [A Certain Magical Index](https://en.wikipedia.org/wiki/A_Certain_Magical_Index) and [A Certain Scientific Railgun](https://en.wikipedia.org/wiki/A_Certain_Scientific_Railgun), as well City Lights theme.
 

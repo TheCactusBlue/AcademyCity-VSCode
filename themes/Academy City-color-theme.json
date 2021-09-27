@@ -2,6 +2,7 @@
   "name": "Academy City",
   "type": "dark",
   "colors": {
+    "titleBar.activeBackground": "#2a2838",
     "sideBar.background": "#262433",
     "statusBar.background": "#201D2B",
     "editorGroupHeader.tabsBackground": "#201D2B",
@@ -45,7 +46,7 @@
     "terminal.ansiMagenta": "#8a75e6",
     "terminal.ansiRed": "#e02d60",
     "terminal.ansiYellow": "#f0b82b",
-    "terminal.ansiBrightBlack": "#262433",
+    "terminal.ansiBrightBlack": "#eeffff88",
     "terminal.ansiBrightBlue": "#7599e6",
     "terminal.ansiBrightCyan": "#5ebae6",
     "terminal.ansiBrightGreen": "#1fdbac",

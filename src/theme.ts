@@ -22,7 +22,7 @@ export const theme = {
 	type: "dark",
 	colors: {
 		'titleBar.activeBackground': palette.background,
-		"sideBar.background": palette.background2,
+		'sideBar.background': palette.background2,
 		'statusBar.background': palette.background5,
 		'editorGroupHeader.tabsBackground': palette.background5,
 		"editorPane.background": palette.background6,
